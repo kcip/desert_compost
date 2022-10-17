@@ -1,0 +1,27 @@
+.button {
+  height: 50px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50px;
+  margin: 2rem;
+  outline: none;
+  border: none;
+}
+
+.primary-btn {
+  background: #8E3C4D;
+  color: white;
+  font-family: 'Signika', sans-serif;
+
+  a {
+    font-size: 2rem;
+  }
+  
+}

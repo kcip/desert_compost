@@ -1,0 +1,14 @@
+.outside-link {
+  margin: 5px 15px;
+
+  a {
+    color: white;
+    font-size: 1.6rem;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      color: black;
+      font-weight: bold;
+    }
+  }
+}

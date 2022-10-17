@@ -1,0 +1,33 @@
+
+.question {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question-container {
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-top: 2rem;
+
+    p {
+      font-style: italic;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+}
+
+.ul-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.li-item {
+  color: white;
+  font-size: 2rem;
+  padding: 5px 0;
+}
+

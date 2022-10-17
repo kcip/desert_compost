@@ -1,0 +1,45 @@
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  column-gap: .5rem;
+  row-gap: .5rem;
+    @media only screen and (min-width: 899px) {
+      flex-direction: row;
+    }
+
+}
+.donate-hero {
+  justify-content: center!important;
+}
+.donate-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 4rem;
+  // max-width: 600px;
+}
+
+.donate-qr-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  img {
+    min-width: 300px;
+    position: relative;
+    padding: 2rem;
+    @media only screen and (min-width: 899px) {
+      padding: 1rem;
+    }
+  }
+}
+
+.pos-r {
+  position: relative;
+}
